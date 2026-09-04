@@ -1,0 +1,7 @@
+target
+data
+runtime-java
+screenshots
+*.docx
+*.pdf
+.git

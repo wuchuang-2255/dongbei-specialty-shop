@@ -1,0 +1,10 @@
+/target/
+/data/
+/runtime-java/
+/screenshots/
+/qa_render/
+*.docx
+*.pdf
+*.log
+.idea/
+.vscode/

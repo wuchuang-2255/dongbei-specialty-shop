@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dongbei-specialty-shop
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
+    envVars:
+      - key: DB_URL
+        value: jdbc:h2:file:/tmp/dongbei-shop
