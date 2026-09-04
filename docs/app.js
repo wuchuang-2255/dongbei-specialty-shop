@@ -1,10 +1,30 @@
 const products=[
 {id:1,name:'五常稻花香大米',cat:'粮油米面',price:79.90,stock:120,hot:true,img:'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80',desc:'黑龙江五常核心产区，颗粒饱满，米香自然。'},
-{id:2,name:'长白山黑木耳',cat:'山珍菌菇',price:36.80,stock:86,hot:true,img:'https://images.unsplash.com/photo-1504545102780-26774c1bb073?auto=format&fit=crop&w=900&q=80',desc:'肉厚脆嫩，适合凉拌、炖菜和日常家庭烹饪。'},
+{id:2,name:'长白山黑木耳',cat:'山珍菌菇',price:36.80,stock:86,hot:true,img:'https://imgservice.suning.cn/uimg1/b2c/image/JU_Mj7L2Ew3QhW1NxRxpAw.jpg_800w_800h_4e_80Q_is',desc:'肉厚脆嫩，适合凉拌、炖菜和日常家庭烹饪。'},
 {id:3,name:'哈尔滨红肠',cat:'肉类熟食',price:45,stock:65,hot:true,img:'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=900&q=80',desc:'蒜香与烟熏风味协调，开袋即食。'},
 {id:4,name:'延边辣白菜',cat:'佐餐食品',price:24.90,stock:140,img:'https://images.unsplash.com/photo-1583224964978-2257b960c3d3?auto=format&fit=crop&w=900&q=80',desc:'酸辣爽脆，低温发酵，适合佐餐和炒饭。'},
 {id:5,name:'丹东草莓果酱',cat:'休闲食品',price:29.80,stock:72,img:'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=80',desc:'以草莓果肉熬制，适合面包、酸奶和甜点。'},
-{id:6,name:'东北榛子',cat:'坚果炒货',price:39.90,stock:95,hot:true,img:'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?auto=format&fit=crop&w=900&q=80',desc:'颗粒均匀，香脆易剥，适合日常零食。'}];
+{id:6,name:'东北榛子',cat:'坚果炒货',price:39.90,stock:95,hot:true,img:'https://images.unsplash.com/photo-1599599810769-bcde5a160d32?auto=format&fit=crop&w=900&q=80',desc:'颗粒均匀，香脆易剥，适合日常零食。'},
+{id:7,name:'长白山人参',cat:'滋补山珍',price:168,stock:35,hot:true,img:'https://images.unsplash.com/photo-1615485500704-8e990f9900f7?auto=format&fit=crop&w=900&q=80',desc:'参形完整，适合煲汤、泡茶与节日赠礼。'},
+{id:8,name:'东北野生松子',cat:'坚果炒货',price:58.8,stock:78,img:'https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=900&q=80',desc:'颗粒饱满，松香自然，开口易剥。'},
+{id:9,name:'铁岭榛蘑',cat:'山珍菌菇',price:42.8,stock:66,img:'https://images.unsplash.com/photo-1512595765784-5ebad80772a3?auto=format&fit=crop&w=900&q=80',desc:'东北炖菜常用山珍，香气浓郁。'},
+{id:10,name:'吉林猴头菇',cat:'山珍菌菇',price:49.9,stock:52,hot:true,img:'https://images.unsplash.com/photo-1504545102780-26774c1bb073?auto=format&fit=crop&w=900&q=80',desc:'肉质厚实，适合煲汤和炖菜。'},
+{id:11,name:'黑龙江蓝莓干',cat:'休闲食品',price:32.9,stock:105,img:'https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=80',desc:'酸甜柔韧，适合办公室零食。'},
+{id:12,name:'大兴安岭沙果干',cat:'休闲食品',price:26.8,stock:93,img:'https://images.unsplash.com/photo-1596591606975-97ee5cef3a1e?auto=format&fit=crop&w=900&q=80',desc:'果香清新，酸甜开胃。'},
+{id:13,name:'东北冻梨',cat:'时令水果',price:29.9,stock:60,img:'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=900&q=80',desc:'东北冬季特色吃法，解冻后清甜多汁。'},
+{id:14,name:'辽宁南果梨',cat:'时令水果',price:55,stock:80,img:'https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?auto=format&fit=crop&w=900&q=80',desc:'果香浓郁，肉质细腻。'},
+{id:15,name:'丹东黄蚬子',cat:'海产干货',price:69.9,stock:48,img:'https://images.unsplash.com/photo-1498654200943-1088dd4438ae?auto=format&fit=crop&w=900&q=80',desc:'鲜味突出，冷链包装发货。'},
+{id:16,name:'大连烤鱼片',cat:'海产干货',price:35.8,stock:110,img:'https://images.unsplash.com/photo-1535400255456-984241443b29?auto=format&fit=crop&w=900&q=80',desc:'咸香有嚼劲，独立小包装。'},
+{id:17,name:'锦州小菜',cat:'佐餐食品',price:19.9,stock:130,img:'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80',desc:'清脆爽口，早餐佐粥方便。'},
+{id:18,name:'东北酸菜',cat:'佐餐食品',price:16.8,stock:160,hot:true,img:'https://images.unsplash.com/photo-1583224964978-2257b960c3d3?auto=format&fit=crop&w=900&q=80',desc:'自然发酵，适合炖粉条和汆白肉。'},
+{id:19,name:'延边冷面',cat:'粮油米面',price:22.9,stock:125,img:'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=900&q=80',desc:'面条筋道，附带风味汤料。'},
+{id:20,name:'东北土豆粉条',cat:'粮油米面',price:18.8,stock:145,img:'https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&w=900&q=80',desc:'久煮不易断，适合炖菜与火锅。'},
+{id:21,name:'盘锦蟹田大米',cat:'粮油米面',price:72.9,stock:98,hot:true,img:'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=900&q=80',desc:'米粒整齐，口感软糯。'},
+{id:22,name:'农家粘豆包',cat:'传统糕点',price:33.8,stock:74,img:'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=80',desc:'黄米外皮配豆沙馅，蒸热食用。'},
+{id:23,name:'沈阳不老林糖',cat:'传统糕点',price:27.9,stock:115,img:'https://images.unsplash.com/photo-1581798459219-318e76aecc7b?auto=format&fit=crop&w=900&q=80',desc:'经典花生与奶香风味。'},
+{id:24,name:'吉林煎粉礼盒',cat:'地方小吃',price:38.8,stock:57,img:'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80',desc:'配料齐全，在家即可制作地方风味。'},
+{id:25,name:'齐齐哈尔烤肉蘸料',cat:'调味品',price:15.9,stock:180,img:'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=80',desc:'孜然芝麻复合香味，适合烧烤。'},
+{id:26,name:'延边辣椒酱',cat:'调味品',price:21.8,stock:138,img:'https://images.unsplash.com/photo-1583224964978-2257b960c3d3?auto=format&fit=crop&w=900&q=80',desc:'辣味柔和，适合拌饭、拌面和腌菜。'}];
 let cart=JSON.parse(localStorage.getItem('db-cart')||'{}'),orders=JSON.parse(localStorage.getItem('db-orders')||'[]');
 const save=()=>{localStorage.setItem('db-cart',JSON.stringify(cart));document.querySelector('#cartCount').textContent=Object.values(cart).reduce((a,b)=>a+b,0)};
 function show(id){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));(document.querySelector(id)||document.querySelector('#home')).classList.add('active');if(id==='#cart')drawCart();if(id==='#orders')drawOrders()}
